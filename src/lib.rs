@@ -74,6 +74,5 @@ pub struct ButtonDto<'a> {
 	pub font: Option<FontDto<'a>>,
 
 	pub enabled: Option<bool>,
-
 	//TODO
 }
