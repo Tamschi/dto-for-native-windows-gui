@@ -3,16 +3,6 @@
 version = 3
 
 [[package]]
-name = "TODO_CRATE_NAME"
-version = "0.0.1"
-dependencies = [
- "cargo-husky",
- "git_info",
- "version-sync",
- "wasm-bindgen-test",
-]
-
-[[package]]
 name = "bitflags"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -50,6 +40,16 @@ checksum = "b8d976903543e0c48546a91908f21588a680a8c8f984df9a5d69feccb2b2a211"
 dependencies = [
  "cfg-if 0.1.10",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "dto-for-native-windows-gui"
+version = "0.0.1"
+dependencies = [
+ "cargo-husky",
+ "git_info",
+ "version-sync",
+ "wasm-bindgen-test",
 ]
 
 [[package]]
